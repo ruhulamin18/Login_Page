@@ -88,27 +88,6 @@ Output will be in the `/dist` folder.
 
 ---
 
-## 🔧 Customization
-
-**Change the rotating messages** — open `src/LoginPage.jsx` and edit the `MESSAGES` array at the top:
-
-```js
-const MESSAGES = [
-  { text: "Your custom message here.", emoji: "🔥" },
-  // add more...
-];
-```
-
-**Change message rotation speed** — find the `setInterval` in `useEffect` and change `4000` (milliseconds):
-
-```js
-const interval = setInterval(() => { ... }, 4000); // change 4000 to any ms value
-```
-
-**Change colors** — open `src/LoginPage.css` and update the indigo accent values (`#6366f1`, `#818cf8`) to your preferred color.
-
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
